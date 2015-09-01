@@ -125,6 +125,10 @@
 (global-anzu-mode +1)
 (fancy-battery-mode +1)
 
+(defun my/turn-off-linum-mode ()
+  (linum-mode -1))
+(add-hook 'org-mode-hook 'my/turn-off-linum-mode)
+
 ;; windmove mode
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
