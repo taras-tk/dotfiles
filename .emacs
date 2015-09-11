@@ -1,13 +1,13 @@
 ;; MELPA
 (require 'package) ;; You might already have this line
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/"))
+             '("melpa" . "https://melpa.org/packages/"))
 (when (< emacs-major-version 24)
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize) ;; You might already have this line
 
-;;(load-theme 'solarized-dark t)
+;;(load-theme 'solarized t)
 ;;(load-theme 'monokai t)
 ;;(load-theme 'wombat t)
 (load-theme 'ample t)
@@ -32,6 +32,10 @@
 
 ;; tabs into spaces
 (setq-default indent-tabs-mode nil)
+;; turn off tab symbols use spaces instead
+(setq indent-tabs-mode 'nil)
+;; number of spaces per tab
+(setq-default tab-width 2)
 
 ;; show line number
 (line-number-mode t)
@@ -63,10 +67,6 @@
 
 ;; column width
 (setq-default fill-column 79)
-;; number of spaces per tab
-(setq default-tab-width 2)
-;; turn off tab symbols use spaces instead
-(setq indent-tabs-mode 'nil)
 ;; automatic filling depending on major mode
 (auto-fill-mode 1)
 
