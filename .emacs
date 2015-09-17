@@ -11,8 +11,10 @@
 ;;(load-theme 'monokai t)
 ;;(load-theme 'wombat t)
 (load-theme 'ample t)
+;;(load-theme 'cyberpunk t)
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'sanityinc-tomorrow-eighties t)
+;;(load-theme 'darcula t)
 
 ;; linum-relative is buggy and is not quite compatible with gutter
 ;;(require 'linum-relative)
@@ -80,7 +82,7 @@
 ;;(set-default-font "-unknown-Inconsolata-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1")
 ;;(set-default-font "-unknown-Inconsolata-normal-normal-normal-*-20-*-*-*-m-0-iso10646-1")
 ;;(set-default-font "-unknown-Envy Code R-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
-(set-default-font "-unknown-Inconsolata LGC-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1")
+(set-default-font "-unknown-Inconsolata LGC-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
 
 ;; open with single window
 (setq inhibit-startup-screen t)
@@ -95,7 +97,7 @@
 ;;(add-to-list 'default-frame-alist '(font . "-unknown-Droid Sans Mono-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1"))
 ;;(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1"))
 ;;(add-to-list 'default-frame-alist '(font . "-unknown-Envy Code R-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
-(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata LGC-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1"))
+(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata LGC-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
 
 ;;(custom-set-faces
 ;; ;; custom-set-faces was added by Custom.
