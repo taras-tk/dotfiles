@@ -7,11 +7,11 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize) ;; You might already have this line
 
-;;(load-theme 'solarized t)
+;;(load-theme 'solarized-dark t)
 ;;(load-theme 'monokai t)
 ;;(load-theme 'wombat t)
-(load-theme 'ample t)
-;;(load-theme 'cyberpunk t)
+;;(load-theme 'ample t)
+(load-theme 'cyberpunk t)
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'sanityinc-tomorrow-eighties t)
 ;;(load-theme 'darcula t)
@@ -107,8 +107,8 @@
 ;; '(default ((t (:family "Inconsolata" :foundry "unknown" :slant normal :weight normal :height 143 :width normal)))))
 
 ;; emacsclient: set cursor color
-;;(add-to-list 'default-frame-alist '(cursor-color . "OliveDrab3"))
-(add-to-list 'default-frame-alist '(cursor-color . "#f57e00"))
+(add-to-list 'default-frame-alist '(cursor-color . "OliveDrab3"))
+;;(add-to-list 'default-frame-alist '(cursor-color . "#f57e00"))
 ;; emacsclient: blink cursor
 (blink-cursor-mode t)
 
@@ -124,7 +124,7 @@
 ;;(guru-global-mode +1)
 (global-smartscan-mode +1)
 (global-linum-mode +1)
-(global-hl-line-mode +1)
+;;(global-hl-line-mode +1)
 (evil-mode +1)
 (global-anzu-mode +1)
 (fancy-battery-mode +1)
