@@ -11,10 +11,21 @@
 ;;(load-theme 'monokai t)
 ;;(load-theme 'wombat t)
 ;;(load-theme 'ample t)
-(load-theme 'cyberpunk t)
+;;(load-theme 'cyberpunk t)
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'sanityinc-tomorrow-eighties t)
 ;;(load-theme 'darcula t)
+;;(load-theme 'leuven t)
+
+(setq calendar-location-name "Lviv, Ukraine")
+(setq calendar-latitude 49.8500)
+(setq calendar-longitude 24.0167)
+
+(require 'theme-changer)
+;;(change-theme 'moe-light 'moe-dark)
+;;(change-theme 'material-light 'material)
+;;(change-theme 'sanityinc-tomorrow-day 'sanityinc-tomorrow-eighties)
+(change-theme 'solarized-light 'solarized-dark)
 
 ;; linum-relative is buggy and is not quite compatible with gutter
 ;;(require 'linum-relative)
@@ -107,8 +118,10 @@
 ;; '(default ((t (:family "Inconsolata" :foundry "unknown" :slant normal :weight normal :height 143 :width normal)))))
 
 ;; emacsclient: set cursor color
-(add-to-list 'default-frame-alist '(cursor-color . "OliveDrab3"))
-;;(add-to-list 'default-frame-alist '(cursor-color . "#f57e00"))
+;;(add-to-list 'default-frame-alist '(cursor-color . "OliveDrab3"))
+(add-to-list 'default-frame-alist '(cursor-color . "#f57e00"))
+;;(add-to-list 'default-frame-alist '(cursor-color . "firebrick"))
+
 ;; emacsclient: blink cursor
 (blink-cursor-mode t)
 
@@ -124,7 +137,7 @@
 ;;(guru-global-mode +1)
 (global-smartscan-mode +1)
 (global-linum-mode +1)
-;;(global-hl-line-mode +1)
+(global-hl-line-mode +1)
 (evil-mode +1)
 (global-anzu-mode +1)
 (fancy-battery-mode +1)
