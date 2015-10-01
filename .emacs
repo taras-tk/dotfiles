@@ -25,7 +25,8 @@
 ;;(change-theme 'moe-light 'moe-dark)
 ;;(change-theme 'material-light 'material)
 ;;(change-theme 'sanityinc-tomorrow-day 'sanityinc-tomorrow-eighties)
-(change-theme 'solarized-light 'solarized-dark)
+;;(change-theme 'solarized-light 'solarized-dark)
+(change-theme 'leuven 'cyberpunk)
 
 ;; linum-relative is buggy and is not quite compatible with gutter
 ;;(require 'linum-relative)
