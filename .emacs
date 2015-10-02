@@ -138,7 +138,7 @@
 ;;(guru-global-mode +1)
 (global-smartscan-mode +1)
 (global-linum-mode +1)
-(global-hl-line-mode +1)
+;;(global-hl-line-mode +1)
 (evil-mode +1)
 (global-anzu-mode +1)
 (fancy-battery-mode +1)
