@@ -22,11 +22,10 @@
 (setq calendar-longitude 24.0167)
 
 (require 'theme-changer)
-;;(change-theme 'moe-light 'moe-dark)
 ;;(change-theme 'material-light 'material)
-;;(change-theme 'sanityinc-tomorrow-day 'sanityinc-tomorrow-eighties)
+(change-theme 'sanityinc-tomorrow-blue 'sanityinc-tomorrow-eighties)
 ;;(change-theme 'solarized-light 'solarized-dark)
-(change-theme 'leuven 'cyberpunk)
+;;(change-theme 'zenburn 'monokai)
 
 ;; linum-relative is buggy and is not quite compatible with gutter
 ;;(require 'linum-relative)
@@ -94,7 +93,7 @@
 ;;(set-default-font "-unknown-Inconsolata-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1")
 ;;(set-default-font "-unknown-Inconsolata-normal-normal-normal-*-20-*-*-*-m-0-iso10646-1")
 ;;(set-default-font "-unknown-Envy Code R-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
-(set-default-font "-unknown-Inconsolata LGC-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
+(set-default-font "-unknown-Inconsolata LGC-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1")
 
 ;; open with single window
 (setq inhibit-startup-screen t)
@@ -109,7 +108,7 @@
 ;;(add-to-list 'default-frame-alist '(font . "-unknown-Droid Sans Mono-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1"))
 ;;(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1"))
 ;;(add-to-list 'default-frame-alist '(font . "-unknown-Envy Code R-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
-(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata LGC-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
+(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata LGC-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1"))
 
 ;;(custom-set-faces
 ;; ;; custom-set-faces was added by Custom.
