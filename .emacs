@@ -23,7 +23,7 @@
 
 (require 'theme-changer)
 ;;(change-theme 'material-light 'material)
-(change-theme 'sanityinc-tomorrow-blue 'sanityinc-tomorrow-eighties)
+(change-theme 'sanityinc-tomorrow-blue 'sanityinc-tomorrow-night)
 ;;(change-theme 'solarized-light 'solarized-dark)
 ;;(change-theme 'zenburn 'monokai)
 
