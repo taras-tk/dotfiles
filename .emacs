@@ -14,7 +14,6 @@
 ;;(load-theme 'cyberpunk t)
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'sanityinc-tomorrow-eighties t)
-;;(load-theme 'darcula t)
 ;;(load-theme 'leuven t)
 
 (setq calendar-location-name "Lviv, Ukraine")
@@ -23,9 +22,8 @@
 
 (require 'theme-changer)
 ;;(change-theme 'material-light 'material)
-(change-theme 'sanityinc-tomorrow-blue 'sanityinc-tomorrow-night)
+(change-theme 'sanityinc-tomorrow-blue 'sanityinc-tomorrow-bright)
 ;;(change-theme 'solarized-light 'solarized-dark)
-;;(change-theme 'zenburn 'monokai)
 
 ;; linum-relative is buggy and is not quite compatible with gutter
 ;;(require 'linum-relative)
