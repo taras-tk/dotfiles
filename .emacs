@@ -24,6 +24,7 @@
 ;;(change-theme 'material-light 'material)
 (change-theme 'sanityinc-tomorrow-blue 'sanityinc-tomorrow-bright)
 ;;(change-theme 'solarized-light 'solarized-dark)
+;;(change-theme 'spacemacs-light 'spacemacs-dark)
 
 ;; linum-relative is buggy and is not quite compatible with gutter
 ;;(require 'linum-relative)
@@ -139,6 +140,9 @@
 (evil-mode +1)
 (global-anzu-mode +1)
 (fancy-battery-mode +1)
+(which-key-mode +1)
+(require 'smartparens-config)
+(smartparens-global-mode +1)
 
 (defun my/turn-off-linum-mode ()
   (linum-mode -1))
