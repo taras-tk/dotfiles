@@ -10,7 +10,6 @@
 ;;(load-theme 'solarized-dark t)
 ;;(load-theme 'monokai t)
 ;;(load-theme 'wombat t)
-;;(load-theme 'ample t)
 ;;(load-theme 'cyberpunk t)
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'sanityinc-tomorrow-eighties t)
@@ -21,13 +20,8 @@
 (setq calendar-longitude 24.0167)
 
 (require 'theme-changer)
-;;(change-theme 'material-light 'material)
 (change-theme 'sanityinc-tomorrow-blue 'sanityinc-tomorrow-bright)
 ;;(change-theme 'solarized-light 'solarized-dark)
-;;(change-theme 'spacemacs-light 'spacemacs-dark)
-
-;; linum-relative is buggy and is not quite compatible with gutter
-;;(require 'linum-relative)
 
 (require 'git-gutter-fringe)
 (setq git-gutter-fr:side 'right-fringe)
@@ -85,14 +79,8 @@
 ;; value is in 1/10pt, so 100 will give you 10pt
 ;;(set-face-attribute 'default nil :height 120)
 
-;;(set-frame-font "-unknown-DejaVu Sans Mono-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1")
-;;(set-default-font "-unknown-Liberation Mono-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1")
-;;(set-default-font "-monotype-Andale Mono-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1")
-;;(set-default-font "-unknown-Droid Sans Mono-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1")
-;;(set-default-font "-unknown-Inconsolata-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1")
-;;(set-default-font "-unknown-Inconsolata-normal-normal-normal-*-20-*-*-*-m-0-iso10646-1")
-;;(set-default-font "-unknown-Envy Code R-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
-(set-default-font "-unknown-Inconsolata LGC-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1")
+;;(set-default-font "-unknown-Inconsolata LGC-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
+(set-default-font "-unknown-Monaco-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
 
 ;; open with single window
 (setq inhibit-startup-screen t)
@@ -103,11 +91,8 @@
 (setq flycheck-check-syntax-automatically '(mode-enabled save))
 (setq flycheck-checker-error-threshold 2000)
 
-;;(add-to-list 'default-frame-alist '(font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1"))
-;;(add-to-list 'default-frame-alist '(font . "-unknown-Droid Sans Mono-normal-normal-normal-*-*-*-*-*-m-0-iso10646-1"))
-;;(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1"))
-;;(add-to-list 'default-frame-alist '(font . "-unknown-Envy Code R-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
-(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata LGC-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1"))
+;;(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata LGC-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
+(add-to-list 'default-frame-alist '(font . "-unknown-Monaco-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
 
 ;;(custom-set-faces
 ;; ;; custom-set-faces was added by Custom.
@@ -131,9 +116,7 @@
 ;; disable the menubar
 (menu-bar-mode -1)
 
-;; gutter does not play well with linum-relative
 (global-git-gutter-mode +1)
-;;(guru-global-mode +1)
 (global-smartscan-mode +1)
 (global-linum-mode +1)
 ;;(global-hl-line-mode +1)
