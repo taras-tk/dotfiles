@@ -36,4 +36,5 @@ function e() {
 # Keyboard backlight
 alias backlight='~/bin/backlight.sh'
 
+export TERM=xterm-256color
 export EDITOR=emacs
