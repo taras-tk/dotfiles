@@ -19,8 +19,8 @@
 (setq calendar-latitude 49.8500)
 (setq calendar-longitude 24.0167)
 
-(require 'theme-changer)
-(change-theme 'sanityinc-tomorrow-blue 'sanityinc-tomorrow-bright)
+;;(require 'theme-changer)
+;;(change-theme 'sanityinc-tomorrow-blue 'sanityinc-tomorrow-bright)
 ;;(change-theme 'solarized-light 'solarized-dark)
 
 (require 'git-gutter-fringe)
@@ -79,8 +79,8 @@
 ;; value is in 1/10pt, so 100 will give you 10pt
 ;;(set-face-attribute 'default nil :height 120)
 
-;;(set-default-font "-unknown-Inconsolata LGC-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
-(set-default-font "-unknown-Monaco-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
+(set-default-font "-unknown-Inconsolata LGC-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1")
+;;(set-default-font "-unknown-Monaco-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
 
 ;; open with single window
 (setq inhibit-startup-screen t)
@@ -91,8 +91,8 @@
 (setq flycheck-check-syntax-automatically '(mode-enabled save))
 (setq flycheck-checker-error-threshold 2000)
 
-;;(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata LGC-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
-(add-to-list 'default-frame-alist '(font . "-unknown-Monaco-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
+(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata LGC-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1"))
+;;(add-to-list 'default-frame-alist '(font . "-unknown-Monaco-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
 
 ;;(custom-set-faces
 ;; ;; custom-set-faces was added by Custom.
@@ -103,7 +103,7 @@
 
 ;; emacsclient: set cursor color
 ;;(add-to-list 'default-frame-alist '(cursor-color . "OliveDrab3"))
-(add-to-list 'default-frame-alist '(cursor-color . "#f57e00"))
+;;(add-to-list 'default-frame-alist '(cursor-color . "#f57e00"))
 ;;(add-to-list 'default-frame-alist '(cursor-color . "firebrick"))
 
 ;; emacsclient: blink cursor
@@ -119,13 +119,14 @@
 (global-git-gutter-mode +1)
 (global-smartscan-mode +1)
 (global-linum-mode +1)
-;;(global-hl-line-mode +1)
+(global-hl-line-mode +1)
 (evil-mode +1)
 (global-anzu-mode +1)
 (fancy-battery-mode +1)
 (which-key-mode +1)
 (require 'smartparens-config)
 (smartparens-global-mode +1)
+(require 'fill-column-indicator)
 
 (defun my/turn-off-linum-mode ()
   (linum-mode -1))
