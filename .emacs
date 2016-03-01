@@ -126,7 +126,8 @@
 (which-key-mode +1)
 (require 'smartparens-config)
 (smartparens-global-mode +1)
-(require 'fill-column-indicator)
+;;(require 'fill-column-indicator)
+;;(fci-mode t)
 
 (defun my/turn-off-linum-mode ()
   (linum-mode -1))
