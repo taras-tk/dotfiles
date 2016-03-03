@@ -14,7 +14,7 @@
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'sanityinc-tomorrow-eighties t)
 ;;(load-theme 'leuven t)
-(load-theme 'adwaita t)
+;;(load-theme 'adwaita t)
 
 ;; https://github.com/emacs-jp/replace-colorthemes
 ;;(load-theme 'aalto-light t t)
@@ -109,7 +109,7 @@
 ;; emacsclient: set cursor color
 ;;(add-to-list 'default-frame-alist '(cursor-color . "OliveDrab3"))
 ;;(add-to-list 'default-frame-alist '(cursor-color . "#f57e00"))
-(add-to-list 'default-frame-alist '(cursor-color . "firebrick"))
+;;(add-to-list 'default-frame-alist '(cursor-color . "firebrick"))
 
 ;; emacsclient: blink cursor
 (blink-cursor-mode t)
@@ -124,7 +124,8 @@
 (global-git-gutter-mode +1)
 (global-smartscan-mode +1)
 (global-linum-mode +1)
-;;(global-hl-line-mode +1)
+(global-hl-line-mode +1)
+(set-face-background 'hl-line "AliceBlue")
 (evil-mode +1)
 (global-anzu-mode +1)
 (fancy-battery-mode +1)
