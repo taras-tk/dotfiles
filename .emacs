@@ -13,7 +13,7 @@
 ;;(load-theme 'cyberpunk t)
 ;;(load-theme 'zenburn t)
 ;;(load-theme 'sanityinc-tomorrow-eighties t)
-;;(load-theme 'leuven t)
+(load-theme 'leuven t)
 ;;(load-theme 'adwaita t)
 
 ;; https://github.com/emacs-jp/replace-colorthemes
@@ -124,8 +124,10 @@
 (global-git-gutter-mode +1)
 (global-smartscan-mode +1)
 (global-linum-mode +1)
+
 (global-hl-line-mode +1)
-(set-face-background 'hl-line "AliceBlue")
+;;(set-face-background 'hl-line "AliceBlue")
+
 (evil-mode +1)
 (global-anzu-mode +1)
 (fancy-battery-mode +1)
