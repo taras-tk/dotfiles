@@ -84,7 +84,7 @@
 ;; value is in 1/10pt, so 100 will give you 10pt
 ;;(set-face-attribute 'default nil :height 120)
 
-(set-default-font "-unknown-Inconsolata LGC-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1")
+(set-default-font "-unknown-Inconsolata LGC-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1")
 ;;(set-default-font "-unknown-Monaco-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
 
 ;; open with single window
@@ -96,7 +96,7 @@
 (setq flycheck-check-syntax-automatically '(mode-enabled save))
 (setq flycheck-checker-error-threshold 2000)
 
-(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata LGC-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1"))
+(add-to-list 'default-frame-alist '(font . "-unknown-Inconsolata LGC-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1"))
 ;;(add-to-list 'default-frame-alist '(font . "-unknown-Monaco-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
 
 ;;(custom-set-faces
