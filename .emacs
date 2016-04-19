@@ -16,6 +16,9 @@
 (load-theme 'leuven t)
 ;;(load-theme 'adwaita t)
 
+;; Fontify the whole line for headings (with a background color).
+(setq org-fontify-whole-heading-line t)
+
 ;; https://github.com/emacs-jp/replace-colorthemes
 ;;(load-theme 'aalto-light t t)
 ;;(enable-theme 'aalto-light)
